@@ -1,0 +1,145 @@
+@media screen and (max-width: 430px) and (max-height: 932px) {
+    .header {
+        width: 430px;
+        height: 505px;
+
+        display: flex;
+        justify-content: start;
+        text-align: left;
+    }
+
+    .container-initial {
+        padding: 0px 24px 0px 24px;
+    }
+
+    .container-initial h1 {
+        margin: 0;
+
+        width: 278px;
+        height: 64px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .container-initial p {
+        width: 381px;
+        height: 132px;
+    }
+
+    .container-btns {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .download-btn {
+        width: 381px;
+        height: 54px;
+    }
+
+    .online-btn {
+        width: 381px;
+        height: 52px;
+    }
+
+    .container-one {
+        flex-direction: column;
+
+        padding: 40px 24px 40px 24px;
+        gap: 27px;
+    }
+
+    .text-one h1 {
+        margin: 0;
+        width: 370px;
+        height: 99px;
+
+        font-size: 24px;
+        line-height: 32.68px;
+    }
+
+    .text-one p {
+        width: 378px;
+        height: 88px;
+
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .container-two {
+        flex-direction: column-reverse;
+
+        padding: 40px 24px 40px 24px;
+        gap: 27px;
+    }
+
+    .text-two h1 {
+        margin: 0;
+        width: 379px;
+        height: 33px;
+
+        font-size: 24px;
+        line-height: 32.68px;
+    }
+
+    .text-two p {
+        width: 378px;
+        height: 88px;
+
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .container-three {
+        flex-direction: column;
+
+        padding: 40px 24px 40px 24px;
+        gap: 27px;
+    }
+
+    .text-three h1 {
+        margin: 0;
+        width: 373px;
+        height: 33px;
+
+        font-size: 24px;
+        line-height: 32.68px;
+    }
+
+    .text-three p {
+        width: 378px;
+        height: 88px;
+
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .container-four {
+        background-color: #F6F6F6;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        padding: 40px 0px 40px 0px;
+        gap: 27px;
+    }
+
+    .text-four {
+        padding: 40px 24px 40px 24px;
+    }
+
+    .text-four h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .image-four img {
+        width: 379px;
+        height: 252px;
+    }
+
+    .logo-dio img{
+        width: 429px;
+        height: 96px;
+    }
+}

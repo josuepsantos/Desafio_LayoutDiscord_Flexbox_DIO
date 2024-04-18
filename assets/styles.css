@@ -1,0 +1,218 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(/assets/images/Header\ Background.png);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 459px;
+
+    color: white;
+    font-family: "Luckiest Guy", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-initial {
+    gap: 24px;
+}
+
+.container-initial h1 {
+    margin: auto;
+    width: 313px;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+}
+
+.container-initial p {
+    width: 757px;
+    height: 66px;
+
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+.container-btns {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.download-btn {
+    width: 205px;
+    height: 44px;
+    border: 1px solid;
+    border-radius: 28px;
+    border-color: white;
+
+    cursor: pointer;
+}
+
+.online-btn {
+    color: white;
+    background-color: #23272A;
+    width: 281px;
+    height: 44px;
+    border: 1px solid;
+    border-radius: 28px;
+    border-color: #23272A;
+
+    cursor: pointer;
+}
+
+.container-one {
+    display: flex;
+    justify-content: center;
+
+    top: 499px;
+    left: 154px;
+    gap: 16px;
+}
+
+.text-one {
+    font-family: Open Sans, sans-serif;
+    text-align: left;
+}
+
+.text-one h1 {
+    width: 329px;
+    height: 270px;
+    top: 10px;
+    left: 623px;
+
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54.47px;
+}
+
+.text-one p {
+    width: 348px;
+    height: 88px;
+    top: 296px;
+    left: 623px;
+
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+}
+
+.container-two {
+    background-color: #F6F6F6;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    top: 933px;
+    gap: 16px;
+}
+
+.text-two {
+    font-family: Open Sans, sans-serif;
+    text-align: left;
+}
+
+.text-two h1 {
+    width: 329px;
+    height: 108px;
+    top: 118px;
+    left: 153px;
+    
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54.47px;
+}
+
+.text-two p {
+    width: 348px;
+    height: 88px;
+    top: 242px;
+    left: 156px;
+
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+}
+
+.container-three {
+    display: flex;
+    justify-content: center;
+
+    top: 1421px;
+    gap: 16px;
+}
+
+.text-three {
+    font-family: Open Sans, sans-serif;
+    text-align: left;
+}
+
+.text-three h1 {
+    width: 329px;
+    height: 108px;
+    top: 107px;
+    left: 776px;
+    
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54.47px;
+}
+
+.text-three p {
+    width: 348px;
+    height: 110px;
+    top: 231px;
+    left: 779px;
+
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+}
+
+.container-four {
+    background-color: #F6F6F6;
+    display: block;
+    text-align: center;
+
+    padding: 40px 0px 40px 0px;
+}
+
+.text-four {
+    font-family: Open Sans, sans-serif;
+}
+
+.text-four h1 {
+    font-family: "Luckiest Guy";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.text-four p {
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+}
+
+.logo-dio {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo-dio img {
+    width: 100%;
+    height: 134px;
+}
